@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+*{
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.navbar{
+    font-family: Georgia, Times, Times New Roman, serif;
+    background-color:#ffffff;
+}
+.menu{
+    font-size:12pt;
+}
+.title{
+    background:#4aaaa5;
+    color: #ffffff;
+    width:150px;
+    text-align:center;
+    padding: 15px 15px;
+}
+.bg-light{
+    background-color:#ffffff;
+
+}
+body{
+    background: url("circles-light.png")
+}
+
+section{
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+h1{
+    color:#4aaaa5;
+    border-bottom:5px;
+}
+.h1{
+    height:25px;}
+.auth-image{
+    float:left;
+}
+.margin{
+    margin-top:40px;
+    position:static;
+    height:425px;
+}
+.portfolio{
+    margin-top:10px;
+    height:475px;
+    background:#ffffff;
+    position:relative;
+    margin-bottom:20px;
+    width:700px;
+
+}
+textarea{
+    margin-bottom:10px;
+}
+.contact{
+    margin-top:10px;
+    height:400px;
+    background:#ffffff;
+    position:relative;
+    margin-bottom:20px;
+    width:700px;
+}
+.text{
+    position:absolute;
+    z-index:100;
+    bottom:-35px;
+    background:teal;
+    width:100%;
+    text-align:center;
+    color:#ffffff;
+    height:35px;
+    line-height:2.25;
+}
+.button{
+    color:#ffffff;
+    background: teal;
+    width:100px;
+    padding: 10px 25px;
+}
+.card{
+    width:175px;
+    height:100px;
+    margin:20px 20px 25px 20px;
+}
+
+.page-footer{
+    background-color:#666666;
+    position:fixed;
+    width:100%;
+    height:50px;
+    bottom:0px;
+    left:0px;
+    text-align:center;
+    margin-top:5px;
+    color:#ffffff;
+}
